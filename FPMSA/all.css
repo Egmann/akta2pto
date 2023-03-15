@@ -1,0 +1,77 @@
+*{
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body,html
+{
+  margin: 0px;
+  height: 100%;
+}
+body{
+  margin-top: 10px;
+}
+div{
+  box-sizing: border-box;
+}
+.menu {
+  position: relative;
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+  }
+  .menu div.active{
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+  }
+  .menu li{
+    height: 35px;
+  }
+  .menu div:hover{
+    font-weight: italic;
+    background-color: rgb(85, 125, 198);
+    border-radius: 5px;
+  }
+  .menu ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+  }
+  .menu a {
+    width: 100%;    
+    color: white;
+    display:block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .menu p {
+    width: 100%;    
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .menu ul div{
+    padding: 5px;
+    margin-top: 10px;
+  }  
+  .nazwa-firmy {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  #logo {
+    width: 100px;
+    margin-top: 25px;
+    border-radius: 50%;
+    vertical-align:middle;      
+    margin:auto;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+
